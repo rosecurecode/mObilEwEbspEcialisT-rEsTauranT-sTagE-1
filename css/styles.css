@@ -30,6 +30,7 @@ ul, li {
 	font-size: 14pt; /* edited from 10pt */
 	color: #333;
 }
+
 a {
 	color: orange;
 	text-decoration: none;
@@ -88,7 +89,7 @@ nav h1 a {
     background-color: #eee;
     font-size: 17px;
     margin: 0;
-    width: 100%;
+    width: 100%; /* calc(50% - 80px) */
 }
 
 /* Display list items side by side */
