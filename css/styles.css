@@ -66,6 +66,16 @@ article, aside, canvas, details, figcaption, figure, footer, header, hgroup, men
   text-align: center;
   text-transform: uppercase;
 }
+h3 {
+  background-color: #f18200 ;
+  color: #ddd;
+  font-size: 12pt;
+  font-weight: 300;
+  padding: 10px; /* */
+  text-align: center;
+  width: 100px; /* */
+  border-radius: 5px;
+}
 /* ====================== Navigation ====================== */
 nav {
   width: 100%;
