@@ -14,7 +14,7 @@ html {
 
 body,td,th,p{
 	font-family: Arial, Helvetica, sans-serif;
-	font-size: 10pt;
+	font-size: 12pt; /* */
 	color: #333;
 	line-height: 1.5;
 }
@@ -29,6 +29,7 @@ ul, li {
 	font-family: Arial, Helvetica, sans-serif;
 	 font-size: 14pt; /* edited from 10pt */
 	color: #333;
+  padding: 0; /* */
 }
 
 a {
@@ -288,7 +289,7 @@ nav h1 a {
   list-style-type: none;
   margin: 0 0 30px;
   overflow: hidden;
-  padding: 0 20px 20px;
+  padding: 20px; /* */
   position: inherit; /* */
   width: 100%; /* */
 }
@@ -297,4 +298,6 @@ nav h1 a {
 }
 #restaurant-hours td {
   color: #666;
+  margin: 0;
+  text-align: center;
 }
