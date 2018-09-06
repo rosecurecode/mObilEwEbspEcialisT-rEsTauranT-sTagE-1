@@ -294,13 +294,13 @@ nav h1 a {
   width: 100%; /* */
 }
 
-#restaurant-hours td {
-  background-color: #fff;
-  border: 2px solid #f3f3f3;
-  color: #666;
-  margin: 0;
-  text-align: center;
-  width: 50%;
-  padding: 20px; /* */
-  position: inherit; /* */
+#restaurant-hours td { /* */
+    background-color: #fff;
+    border: 2px solid #f3f3f3;
+    color: #666;
+    margin: 0;
+    text-align: center;
+    width: 50%;
+    padding: 20px; 
+    position: inherit; 
 }
