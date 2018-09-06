@@ -247,41 +247,41 @@ nav h1 a {
 #restaurant-img {
 	width: 100%;
 
-    display: flex; /* added */
-    flex-flow: wrap;
-    justify-content: center;
-    padding: 50px;
-    margin: auto;
+  display: flex; /* added */
+  flex-flow: wrap;
+  justify-content: center;
+  padding: 50px;
+  margin: auto;
 }
 #restaurant-address {
-    font-size: 15pt; /* */
+  font-size: 15pt; /* */
   margin: 10px 0px;
-    text-align: center; /* */
+  text-align: center; /* */
 }
-#restaurant-cuisine h2 { /* */
+#restaurant-cuisine, h2 { /* */
   background-color: #333;
   color: #ddd;
   font-size: 12pt;
   font-weight: 300;
   letter-spacing: 10px;
-    margin: auto; /* */
-    padding: 10px 0 10px 0; /* */
+  margin: auto; /* */
+  padding: 10px 0 10px 0; /* */
   text-align: center;
   text-transform: uppercase;
-	 width: 100%; /* */
+	width: 100%; /* */
 }
-#restaurant-container #restaurant-hours{
+#restaurant-container {
   border-bottom: 1px solid #d9d9d9;
   border-top: 1px solid #fff;
 
-    padding: 20px; /* edited */
-    width: 100%; 
-}
-#reviews-container {
-    padding: 20px; /* edited */
+  padding: 20px; /* edited */
   width: 100%; 
 }
-#reviews-list li {
+#reviews-container {
+  padding: 20px; /* edited */
+  width: 100%; 
+}
+#reviews-list li, #restaurant-hours{
   background-color: #fff;
   border: 2px solid #f3f3f3;
   display: block;
@@ -289,12 +289,12 @@ nav h1 a {
   margin: 0 0 30px;
   overflow: hidden;
   padding: 0 20px 20px;
-    position: inherit; /* */
-    width: 100%; /* */
+  position: inherit; /* */
+  width: 100%; /* */
 }
 #reviews-list li p {
   margin: 0 0 10px;
 }
 #restaurant-hours td {
-    color: #666;
+  color: #666;
 }
