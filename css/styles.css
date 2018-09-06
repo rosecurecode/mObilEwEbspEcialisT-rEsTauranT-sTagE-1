@@ -293,9 +293,7 @@ nav h1 a {
   position: inherit; /* */
   width: 100%; /* */
 }
-#reviews-list li p {
-  margin: 0 0 10px;
-}
+
 #restaurant-hours td {
   color: #666;
   margin: 0;
