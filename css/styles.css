@@ -282,7 +282,7 @@ nav h1 a {
   padding: 20px; /* edited */
   width: 100%; 
 }
-#reviews-list li, #restaurant-hours{
+#reviews-list li{
   background-color: #fff;
   border: 2px solid #f3f3f3;
   display: block;
@@ -295,8 +295,12 @@ nav h1 a {
 }
 
 #restaurant-hours td {
+  background-color: #fff;
+  border: 2px solid #f3f3f3;
   color: #666;
   margin: 0;
   text-align: center;
-  padding: 0 300px 0 300px;
+  width: 50%;
+  padding: 20px; /* */
+  position: inherit; /* */
 }
