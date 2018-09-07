@@ -325,3 +325,29 @@ nav h1 a {
     padding: 20px; 
     position: inherit; 
 }
+
+/* 1  ********* Mobile: Google Nexus********** 5*/
+
+@media screen and (max-width: 450px ) {   
+  nav {
+    height: 110px;
+  }
+  .filter-options {
+    height: 165px;
+  }
+  #maincontent {
+    padding: 0;
+  }
+  #restaurant-img {
+    width: 100%;
+    padding: 10px 0 0 0;
+  }
+}
+
+@media screen and (min-width: 451px) and (max-width: 555px){
+  .filter-options {
+    height: 165px;
+  } 
+}
+
+
