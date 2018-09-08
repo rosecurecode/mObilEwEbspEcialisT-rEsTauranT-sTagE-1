@@ -82,9 +82,12 @@ fetchRestaurantFromURL = (callback) => {
 fillRestaurantHTML = (restaurant = self.restaurant) => {
   const name = document.getElementById('restaurant-name');
   name.innerHTML = restaurant.name;
+  name.tabindex="0";
 
   const address = document.getElementById('restaurant-address');
   address.innerHTML = restaurant.address;
+  address.tabindex="0";
+
 
   const image = document.getElementById('restaurant-img');
   image.className = 'restaurant-img'
@@ -111,14 +114,18 @@ fillRestaurantHoursHTML = (operatingHours = self.restaurant.operating_hours) => 
 
     const day = document.createElement('td');
     day.innerHTML = key;
+    //day.tabindex = '0';
     row.appendChild(day);
 
     const time = document.createElement('td');
     time.innerHTML = operatingHours[key];
     row.appendChild(time);
+    //time.tabindex = '0';
 
     hours.appendChild(row);
   }
+  
+  
 }
 
 /**
@@ -128,6 +135,7 @@ fillReviewsHTML = (reviews = self.restaurant.reviews) => {
   const container = document.getElementById('reviews-container');
   const title = document.createElement('h2');
   title.innerHTML = 'Reviews';
+  //title.tabindex = '9';
   container.appendChild(title);
 
   if (!reviews) {
@@ -141,6 +149,7 @@ fillReviewsHTML = (reviews = self.restaurant.reviews) => {
     ul.appendChild(createReviewHTML(review));
   });
   container.appendChild(ul);
+  
 }
 
 /**
@@ -150,18 +159,22 @@ createReviewHTML = (review) => {
   const li = document.createElement('li');
   const name = document.createElement('h1');
   name.innerHTML = review.name;
+  name.tabindex= '1';
   li.appendChild(name);
 
   const date = document.createElement('p');
   date.innerHTML = review.date;
+  date.tabindex = '0';
   li.appendChild(date);
 
   const rating = document.createElement('h3');
   rating.innerHTML = `Rating: ${review.rating}`;
+  date.tabindex = '0';
   li.appendChild(rating);
 
   const comments = document.createElement('p');
   comments.innerHTML = review.comments;
+  comments.tabindex = '0'
   li.appendChild(comments);
 
   return li;
