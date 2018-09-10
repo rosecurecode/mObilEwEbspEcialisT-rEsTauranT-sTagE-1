@@ -9,5 +9,5 @@
 //const swCache = 'rrc1';
 //const swCache 
 self.addEventListener('fetch', function(event) {
-  console.log(event.request);
+  console.log('hello');
 });
