@@ -14,9 +14,9 @@ In **Stage :one: One**, a static design that lacks accessibility and responsiven
 	
 1. Get the [Starter Code](https://github.com/rrcanlas/MobileWebSpecialist-Restaurant-Stage-1)
 
-2. Clone the starter code from this [repository]. (https://github.com/rrcanlas/mws-restaurant-stage-1)
+2. Clone the starter code from this [repository](https://github.com/rrcanlas/mws-restaurant-stage-1).
 
-3. From inside the new directory, launch:rocket: a local client server using Python from your terminal :computer: ```python -m SimpleHTTPServer 8000``` then run [http://localhost:8000](http://localhost:8000) from your browser.
+3. From inside the new directory, launch:rocket: a local client server using Python from your terminal :computer: ```python -m SimpleHTTPServer 8000``` then run :running: [http://localhost:8000](http://localhost:8000) from your browser.
 	
 ## My Development Strategy 
 
