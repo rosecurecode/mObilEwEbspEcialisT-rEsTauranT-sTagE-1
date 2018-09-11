@@ -13,7 +13,7 @@ In **Stage :one: One**, a static design that lacks accessibility and responsiven
 
 ## To begin 
 	
-	- Get the [Starter Code](https://github.com/rrcanlas/mws-restaurant-stage-1)
+	- Get the [Starter Code](https://github.com/rrcanlas/MobileWebSpecialist-Restaurant-Stage-1)
 
  	- Clone the starter code from this [repository]. (https://github.com/rrcanlas/mws-restaurant-stage-1)
 
