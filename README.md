@@ -10,6 +10,7 @@ This **Restaurant Reviews** project, incrementally convert a static webpage to a
 
 In **Stage :one: One**, a static design that lacks accessibility and responsiveness was provided which needed to be converted with a design on different sized (desktop, tablet, and mobile) displays and accessibility for screen reader use. A *service worker* should also be added to begin the process of creating a seamless offline :mobile_phone_off: experience for the users.
 
+
 ## To Begin 
 	
  1. Get the [Starter Code](https://github.com/rrcanlas/MobileWebSpecialist-Restaurant-Stage-1)
@@ -44,5 +45,3 @@ In **Stage :one: One**, a static design that lacks accessibility and responsiven
  11. Pushed :punch: the project to my GitHub account.
 
  /play story :sweat:
-
-## License
