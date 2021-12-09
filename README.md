@@ -40,7 +40,7 @@ In **Stage :one: One**, a static design that lacks accessibility and responsiven
 
  9. Added a *ServiceWorker* script to cache :outbox_tray: requests to all of the site’s assets (so that any page that has been visited by a user will be accessible when the user is offline :mobile_phone_off:).
 
- 10. Wrote this README.md :registered: :cool:
+ 10. Composed README.md :registered: :cool:
 
  11. Pushed :punch: the project to my GitHub account.
 
